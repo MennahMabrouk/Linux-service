@@ -79,8 +79,8 @@ sudo systemctl enable <service_name>
 *************
 
 # Note
-```diff
-> @@ The `combined.py` file is the wrriten code of `linux.py` and the `notification.py`  @@
+```diff purple
+> The `combined.py` file is the wrriten code of `linux.py` and the `notification.py`  
 ```
 
 
