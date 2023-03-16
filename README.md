@@ -80,7 +80,8 @@ sudo systemctl enable <service_name>
 
 # Note
 ```diff purple
-@@ The `combined.py` file is the wrriten code of `linux.py` and the `notification.py`  @@
+> 
+@@ The `combined.py` file is the written code of `linux.py` and the `notification.py`  @@
 ```
 
 
