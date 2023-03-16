@@ -21,8 +21,11 @@ This guide will help you set up a Python script to collect system workload data 
 
 2. Open the terminal and install the necessary packages for sending email and collecting system workload data using the following commands:
 
-'sudo apt-get update'
-'sudo apt-get install python3-pip sysstat mailutils'
+```
+sudo apt-get update
+sudo apt-get install python3-pip sysstat mailutils
+
+```
 
 ### Collecting Workload Data
 Write a Python script to collect system workload data and save it to a text file. You can use the psutil module to collect CPU and memory usage data and the iostat command to collect HDD and network usage data. You can save the data to a text file using the csv module in Python.
