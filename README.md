@@ -28,8 +28,10 @@ sudo apt-get install python3-pip sysstat mailutils
 ```
 
 ### Collecting Workload Data
-Write a Python script to collect system workload data and save it to a text file. You can use the psutil module to collect CPU and memory usage data and the iostat command to collect HDD and network usage data. You can save the data to a text file using the csv module in Python.
-Save the Python script to a suitable location on your server.
+
+1. Write a Python script to collect system workload data and save it to a text file. You can use the `psutil` module to collect CPU and memory usage data and the `iostat` command to collect HDD and network usage data. You can save the data to a text file using the csv module in Python.
+
+2. Save the Python script to a suitable location on your server.
 
 ### Creating a Systemd Service
 Create a systemd service file for the Python script. This file should specify the service start-up behavior, dependencies, and resource allocation. You can use a text editor such as Nano or Vim to create the service file.
