@@ -58,17 +58,18 @@ WantedBy=multi-user.target
 ```
 
 ### Starting and Enabling the Service
-Start the service using the following command:
+1. Start the service using the following command:
 
-php
-Copy code
+```bash
 sudo systemctl start <service_name>
-Enable the service to start automatically on system boot using the following command:
+```
 
-bash
-Copy code
+2. Enable the service to start automatically on system boot using the following command:
+```bash
 sudo systemctl enable <service_name>
+```
 
 ### Testing
-Test the service by checking that the text file with system workload data is being created and updated every 12 hours.
-You can also check that the email is being sent with the text file attached.
+
+1. Test the service by checking that the text file with system workload data is being created and updated every 12 hours.
+2. You can also check that the email is being sent with the text file attached.
