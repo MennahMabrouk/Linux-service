@@ -34,9 +34,10 @@ sudo apt-get install python3-pip sysstat mailutils
 2. Save the Python script to a suitable location on your server.
 
 ### Creating a Systemd Service
-Create a systemd service file for the Python script. This file should specify the service start-up behavior, dependencies, and resource allocation. You can use a text editor such as Nano or Vim to create the service file.
 
-The service file should be saved in the /etc/systemd/system/ directory with a .service extension.
+1. Create a systemd service file for the Python script. This file should specify the service start-up behavior, dependencies, and resource allocation. You can use a text editor such as Nano or Vim to create the service file.
+
+2. The service file should be saved in the `/etc/systemd/system/` directory with a .service extension.
 
 makefile
 Copy code
