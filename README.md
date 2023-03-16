@@ -43,7 +43,7 @@ sudo apt-get install python3-pip sysstat mailutils
 
 [Unit]
 Description=Workload Monitor
-After=syslog.target network.target
+After=network.target
 
 [Service]
 Type=simple
