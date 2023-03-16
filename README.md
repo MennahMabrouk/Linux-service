@@ -21,7 +21,7 @@ This guide will help you set up a Python script to collect system workload data 
 
 2. Open the terminal and install the necessary packages for sending email and collecting system workload data using the following commands:
 
-```Bash
+```bash
 sudo apt-get update
 sudo apt-get install python3-pip sysstat mailutils
 
