@@ -58,3 +58,10 @@ while True:
     time.sleep(60*60*12)  # Wait for 12 hours (in seconds)
 
     send_email()  # Send the latest workload text file via email
+    
+    
+    """
+    smtp.gmail.com is the mail server for Gmail, which is a popular email service provided by Google. 
+    The script is using this mail server to send an email. The SMTP server address for Gmail might change in the future, so it's important to keep this in mind when using this script. 
+    However smtp.gmail.com is the correct address to use for sending email via Gmail.
+    """
