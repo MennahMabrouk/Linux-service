@@ -1,0 +1,14 @@
+[Unit]
+Description=PC workload collector service
+After=network.target
+
+[Service]
+User=minmin
+Type=simple
+ExecStart=/usr/bin/python3 /home/minmin/Desktop/projects/service/Combined.py
+ExecStop=/bin/kill -s QUIT $MAINPID
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
