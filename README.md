@@ -74,7 +74,7 @@ sudo systemctl enable <service_name>
 1. Test the service by checking that the text file with system workload data is being created and updated every 12 hours.
 2. You can also check that the email is being sent with the text file attached.
 
-___
+*************
 
 ## Note
 > The `combined.py` file is the wrriten code of `linux.py` and the `notification.py` 
