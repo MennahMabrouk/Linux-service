@@ -10,6 +10,8 @@ To ensure that the service is always running, you have created a systemd file fo
 
 Overall, this project demonstrates how to use Linux and Python to collect and analyze system workload data. It also showcases how to create a systemd service and use it to automate tasks on a Linux server.
 
+*************
+
 # Steps
 ## Monitoring Workload on Zorin OS Server
 
@@ -76,5 +78,5 @@ sudo systemctl enable <service_name>
 
 *************
 
-## Note
+# Note
 > The `combined.py` file is the wrriten code of `linux.py` and the `notification.py` 
