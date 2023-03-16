@@ -75,4 +75,5 @@ sudo systemctl enable <service_name>
 2. You can also check that the email is being sent with the text file attached.
 
 
+## Note
 > The `combined.py` file is the wrriten code of `linux.py` and the `notification.py` 
