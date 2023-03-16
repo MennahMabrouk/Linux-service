@@ -37,10 +37,10 @@ sudo apt-get install python3-pip sysstat mailutils
 
 1. Create a systemd service file for the Python script. This file should specify the service start-up behavior, dependencies, and resource allocation. You can use a text editor such as Nano or Vim to create the service file.
 
-2. The service file should be saved in the `/etc/systemd/system/` directory with a .service extension.
+2. The service file should be saved in the `/etc/systemd/system/` directory with a `.service` extension.
 
-makefile
-Copy code
+```makefile
+
 [Unit]
 Description=Workload Monitor
 After=syslog.target network.target
@@ -54,6 +54,8 @@ ExecStart=/usr/bin/python3 /path/to/your/script.py
 
 [Install]
 WantedBy=multi-user.target
+
+```
 
 ### Starting and Enabling the Service
 Start the service using the following command:
