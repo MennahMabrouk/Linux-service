@@ -29,3 +29,5 @@ while True:
         f.write(f'{collect_workload()}\n')
     # Wait for 60 seconds before collecting data again
     time.sleep(60)
+
+    
